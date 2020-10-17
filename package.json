@@ -1,0 +1,30 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Chat created with Node js, React, WebSockets",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "create-react-app": "^3.4.1",
+    "express": "^4.17.1",
+    "neo4j-driver": "^4.1.2",
+    "nodemon": "^2.0.5",
+    "react-scripts": "^3.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/POWER-OF-YOUTH/Chat.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/POWER-OF-YOUTH/Chat/issues"
+  },
+  "homepage": "https://github.com/POWER-OF-YOUTH/Chat#readme"
+}

@@ -1,2 +1,2 @@
 # Chat
-Node js, React, WebSockets
+Chat created with Node js, React, WebSockets
